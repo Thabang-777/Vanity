@@ -4,7 +4,7 @@ import AdminLayout from "./layouts/AdminLayout"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Vanity">
       <Routes>
         <Route path="/" element={<UserLayout />}></Route>
         <Route path="/admin" element={<AdminLayout />}></Route>
